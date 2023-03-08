@@ -1,0 +1,74 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+body {
+    background-color: #ffffff;
+}
+
+.joseph {
+    width: 100%;
+    height: 100%;
+    background-color: #5de7ff;
+    z-index: 1;
+  }
+
+header {
+    padding: 20px;
+    font-family:  Arial, sans-serif;
+    background-color: #616161;
+    color: #41d1e4;
+}
+
+header h1 {
+    display: ruby-base-container;
+    font-size: 48px;
+}
+
+header h1 . {
+    color: #5ad2f7;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family:  Calibri;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.big-image {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url('https://thumbs.dreamstime.com/b/nepal-jungle-subtropical-around-annapurna-56902828.jpg');
+    background-size: cover;
+    background-position: center;
+}
